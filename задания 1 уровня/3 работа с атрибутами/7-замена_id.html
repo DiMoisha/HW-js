@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h2>title</h2>
+        text
+    </article>
+    <article>
+        <h2 id="title">title</h2>
+        text
+    </article>
+
+    <!-- Задание. найдите заголовок с id="title" и замените значение id
+    на что-то другое. -->
+
+    <script>
+        "use strict;"
+
+        document.getElementById("title").setAttribute("id", "title1");
+
+        // можно и так
+        document.getElementById("title1").id = "title2";
+
+        // или вообще так наверное - хз, не уверен что это верно, хотя работает. но мне кажется первые варианты более верные
+        title2.id = "title3";
+
+    </script>
+
+</body>
+</html>
